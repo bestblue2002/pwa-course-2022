@@ -7,11 +7,7 @@
   flex-direction: column;
 }
 
-@media screen and (max-width: 768px) {
-  .App {
-    border: red 5px solid;
-  }
-}
+
 
 .userlist {
   flex: 1;
@@ -26,4 +22,23 @@
 .inputbox {
   flex: 1;
   background-color: gray;
+}
+
+@media screen and (max-width: 768px) {
+.userlist{
+  flex: 1;
+  background-color: aqua;
+
+}
+
+.chat{
+  flex: 12;
+  background-color: chartreuse;
+}
+
+.inputbox{
+  flex: 1;
+  background-color: deeppink;
+}
+
 }
